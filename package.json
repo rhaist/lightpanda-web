@@ -1,0 +1,23 @@
+{
+  "name": "lms-plugin-lightpanda-web",
+  "version": "1.0.0",
+  "description": "Browse websites using the Lightpanda headless browser",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "lms dev",
+    "push": "lms push",
+    "postinstall": "node scripts/download.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lmstudio/sdk": "^1.5.0",
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.5.0"
+  }
+}
